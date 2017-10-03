@@ -1,11 +1,15 @@
 source 'https://rubygems.org'
 
 gem 'rails', '~> 5.1.2'
-gem 'pg', '~> 0.18'
+gem 'pg', '~> 0.18.4'
 gem 'puma', '~> 3.7'
 gem 'will_paginate', '~> 3.1.6'
 gem 'brewery_db', '~> 0.2.4'
 gem 'foreman', '~> 0.84.0'
+gem 'faker'
+gem 'kaminari'
+gem 'materialize'
+gem 'react-rails';
 
 group :development, :test do
   gem 'pry', '~> 0.10.4'

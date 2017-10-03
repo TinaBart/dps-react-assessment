@@ -31,7 +31,7 @@ class Home extends Component {
                 as='h1'
                 textAlign='center'
                 style={styles.header}>
-                  Assessment Details:
+                  This changed...Assessment Details:
               </Header>
               <Divider />
               <ReactMarkDown source={this.state.assignmentMarkdown} />
